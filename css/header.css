@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+
+li > a {
+    text-decoration: none; 
+    padding: 40px 30px; 
+    color: var(--dark-blue);  
+}
+
+li > a:hover{
+    border-top: solid;
+    border-top-color: var(--dark-blue);
+}
+
+header > img {
+    width: 7%;
+    height: 7%;
+}
