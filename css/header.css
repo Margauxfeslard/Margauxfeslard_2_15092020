@@ -1,24 +1,23 @@
 header{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
 }
 
-li {
+nav ul li {
     list-style: none;
     display: inline;
 }
 
-
-li > a {
+nav ul li a {
     text-decoration: none; 
     padding: 40px 30px; 
     color: var(--dark-blue);  
 }
 
-li > a:hover{
+nav ul li a:hover{
     border-top: solid;
     border-top-color: var(--dark-blue);
+    color: grey;
 }
 
 header > img {
