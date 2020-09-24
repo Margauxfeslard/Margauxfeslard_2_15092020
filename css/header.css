@@ -2,8 +2,7 @@ header{
     display: flex;
     justify-content: space-between;
 }
-
-nav ul li {
+li {
     list-style: none;
     display: inline;
 }

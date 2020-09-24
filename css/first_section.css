@@ -9,6 +9,45 @@ section h3 {
     margin-top: 5px;
 }
 
-.fa-map-marker-alt{
+section form {
+    display: flex;
+    font-weight: bold;
 
+}
+section form div {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: var(--background-grey);
+    border-radius: 7px 0 0 7px;
+    text-align: center;
+}
+
+#localisation{
+    border: solid thin;
+    border-color: var(--background-grey);
+    width: 15%;
+    padding: 10px;
+}
+
+#search{
+    background-color: var(--dark-blue);
+    border: none;
+    border-radius: 0 7px 7px 0;
+    color:white;
+    width: 10%;
+}
+.fa-map-marker-alt{
+    color: black;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section div ul li .fas{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color:var(--dark-blue);
+    background-color: rgb(104, 185, 231);
 }
