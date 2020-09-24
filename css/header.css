@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    padding: 40px 30px; 
+    color: var(--dark-blue);  
+}
+
+nav ul li a:hover{
+    border-top: solid;
+    border-top-color: var(--dark-blue);
+    color: grey;
+}
+
+header > img {
+    width: 7%;
+    height: 7%;
+}
