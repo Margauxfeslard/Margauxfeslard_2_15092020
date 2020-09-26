@@ -10,7 +10,15 @@ li {
 nav ul li a {
     text-decoration: none; 
     padding: 40px 30px; 
-    color: var(--dark-blue);  
+    color: var(--dark-blue); 
+    font-weight: 300; 
+}
+nav ul li:nth-of-type(2) a {
+    color: black; 
+}
+
+nav ul li:nth-of-type(3) a {
+    font-weight: 500;  
 }
 
 nav ul li a:hover{
