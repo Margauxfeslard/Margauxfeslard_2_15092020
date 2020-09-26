@@ -1,0 +1,34 @@
+section:nth-of-type(2){
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+#habitation{
+    width: 80%;
+    height: 82vh;
+    background-color: var(--background-grey);
+    border-radius: 20px;
+    margin-right: 40px;
+    padding: 40px 50px;
+}
+
+#habitation div:first-of-type{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+aside{
+    width: 30%;
+    height: 82vh;
+    background-color: var(--background-grey);
+    border-radius: 20px;
+    padding: 40px 50px;
+}
+
+#habitation h3, aside h3{
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+}
