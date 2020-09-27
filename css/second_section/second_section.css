@@ -1,0 +1,42 @@
+section:nth-of-type(2){
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+#habitation{
+    width: 73%;
+    background-color: var(--background-grey);
+    border-radius: 20px;
+    margin-right: 40px;
+    padding: 40px 20px;
+}
+
+#all-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+
+aside{
+    width: 27%;
+    background-color: var(--background-grey);
+    border-radius: 20px;
+    padding: 40px 50px 20px 50px;
+}
+
+#habitation h3, aside h3{
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+}
+
+#habitation a{
+    display: block;
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 15px;
+}
