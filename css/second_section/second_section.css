@@ -26,6 +26,10 @@ aside{
     padding: 40px 50px 20px 50px;
 }
 
+.fa-chart-line{
+    margin-left: 70px;
+}
+
 #habitation h3, aside h3{
     font-weight: 700;
     font-size: 22px;

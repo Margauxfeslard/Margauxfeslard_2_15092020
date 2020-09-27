@@ -1,0 +1,19 @@
+#activities{
+    margin: 50px 0;
+}
+
+#activities h3{
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+}
+
+#all-activities{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.two{
+    display: block;
+}
