@@ -61,11 +61,6 @@ section:first-of-type h5 div{
     margin-right: 12px;
 }
 
-
-section:first-of-type div {
-    display: flex;
-}
-
 section:first-of-type div h4{
     display: flex;
     margin: 0;
