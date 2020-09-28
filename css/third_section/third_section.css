@@ -1,11 +1,5 @@
-#activities{
+section:nth-of-type(3){
     margin: 50px 0;
-}
-
-#activities h3{
-    font-weight: 700;
-    font-size: 22px;
-    letter-spacing: 0.5px;
 }
 
 #all-activities{
@@ -16,4 +10,34 @@
 
 .two{
     display: block;
+}
+
+@media only screen and (min-width: 1900px){
+
+}
+@media only screen and (min-width: 1600px) and (max-width: 1900px){
+
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1600px){
+
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1024px){
+
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 600px){
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    #all-activities{
+        display: block;
+        width: 100%;
+    }
 }

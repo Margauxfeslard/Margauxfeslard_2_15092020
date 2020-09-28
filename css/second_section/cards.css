@@ -16,8 +16,7 @@
     object-fit: cover;
 }
 
-.cards h4 {
-    font-weight: 600;
+.cards h4, aside article h4 {
     margin: 2px 0;
 }
 
@@ -28,7 +27,7 @@
 }
 
 
-.cards-long{
+aside article{
     width: 100%;
     height: 135px;
     background-color: white;
@@ -39,7 +38,7 @@
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
-.cards-long img{
+aside article img{
     width: 40%;
     height: 100%;
     border-radius: 20px 0 0 20px;
@@ -47,24 +46,19 @@
     object-fit: cover;
 }
 
-.cards-long .long {
+aside article .long {
     padding: 15px;
 }
 
-.cards-long .long .stars {
+.aside article .long .stars {
     padding-top: 37px;
 }
 
-.cards-long .long .stars .fa-star {
+aside article .long .stars .fa-star {
     font-size: 10px;
 }
 
-.cards-long h4 {
-    font-weight: 600;
-    margin: 2px 0;
-}
-
-.cards-long p {
+aside article p {
     margin: 0;
     font-size: 15px;
     font-weight: 300;
@@ -84,3 +78,28 @@
     display: inline-flex;
     justify-content: center;
 }
+
+@media only screen and (min-width: 1900px){
+
+}
+@media only screen and (min-width: 1600px) and (max-width: 1900px){
+
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1600px){
+
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1024px){
+
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 600px){
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {}
