@@ -29,8 +29,6 @@ h1{
 h2{
     font-weight: 700;
     font-size: 1.375rem;
-    letter-spacing: 0.5px;
-
 }
 
 h3{
@@ -43,7 +41,11 @@ h4{
     font-weight: 600;
 }
 
-/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+h5{
+    font-weight: 300;
+    font-size: 16px;
+}
+
 
 @media only screen and (min-width: 1900px){
 
@@ -70,6 +72,29 @@ h4{
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     #main{
-        margin: 1% 5%;
+        margin: 0;
     }
+
+    h1{
+        margin: 20px 20px 10px 20px;
+    }
+
+    h2{
+        margin: 30px 20px;
+        font-weight: 600;
+    }
+
+    h3{
+        margin: 0 20px 20px 20px;
+    }
+
+    h4{
+        font-weight: 700;
+    }
+
+    h5{
+        padding: 20px;
+        margin:0;
+    }
+
 }

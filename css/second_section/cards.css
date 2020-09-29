@@ -5,7 +5,7 @@
     border-radius: 20px;
     padding: 5px;
     margin: 20px 0;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
 
 .cards img{
@@ -35,7 +35,7 @@ aside article{
     padding: 5px;
     margin: 35px 0;
     display: flex;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08);
 }
 
 aside article img{
@@ -102,4 +102,28 @@ aside article p {
 
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    aside article{
+        width: 90%;
+        margin: 10px auto;
+        height: 130px;
+    }
+
+    aside article:last-of-type{
+        margin-bottom: 40px;
+    }
+
+    .cards{
+        width: 90%;
+        height: 200px;
+        margin: 5px;
+    }
+
+    .cards p, h4, .stars {
+        padding-left: 10px;
+    }
+
+    .fa-star {
+        padding:0;
+    }
+}

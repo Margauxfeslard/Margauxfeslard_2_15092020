@@ -70,15 +70,15 @@ aside{
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     section:nth-of-type(2){
-        display: block;
+        flex-direction: column-reverse;
         margin: 10px 0;
-
     }
 
     #habitation{
         width: 100%;
         border-radius:0;
         padding:0;
+        background-color: white;
     }
 
     aside{
@@ -87,7 +87,7 @@ aside{
         padding: 0;
     }
 
-    aside article{
-        padding: 0;
+    #habitation a{
+        margin: 20px 20px 10px 20px;
     }
 }
