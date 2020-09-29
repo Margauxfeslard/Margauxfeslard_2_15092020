@@ -61,12 +61,15 @@ section:first-of-type h5 div{
     margin-right: 12px;
 }
 
-section:first-of-type div h4{
+section #filters h4{
     display: flex;
     margin: 0;
-    padding: 10px;
+    padding-top: 15px;
 }
 
+#filters{
+    display: flex;
+}
 .fa-info{
     color:var(--dark-blue);
     font-size: 12px;
