@@ -12,7 +12,7 @@ section:nth-of-type(2){
     padding: 40px 20px;
 }
 
-#all-cards{
+#habitation article{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -43,4 +43,51 @@ aside{
     font-weight: 600;
     font-size: 18px;
     margin: 15px;
+}
+
+@media only screen and (min-width: 1900px){
+
+}
+@media only screen and (min-width: 1600px) and (max-width: 1900px){
+
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1600px){
+
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1024px){
+
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 600px){
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    section:nth-of-type(2){
+        flex-direction: column-reverse;
+        margin: 10px 0;
+    }
+
+    #habitation{
+        width: 100%;
+        border-radius:0;
+        padding:0;
+        background-color: white;
+    }
+
+    aside{
+        width: 100%;
+        border-radius:0;
+        padding: 0;
+    }
+
+    #habitation a{
+        margin: 20px 20px 10px 20px;
+    }
 }

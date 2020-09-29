@@ -35,3 +35,42 @@ header > img {
     width: 7%;
     height: 7%;
 }
+
+@media only screen and (min-width: 1900px){
+
+}
+@media only screen and (min-width: 1600px) and (max-width: 1900px){
+
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1600px){
+
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1024px){
+
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 600px){
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    header > img {
+        width: 30%;
+        height: 30%;
+        padding: 10px 0 0 10px;
+    }
+
+    nav ul li a {
+        text-decoration: none; 
+        padding: 28px 0 28px 10px; 
+        color: var(--dark-blue); 
+        font-weight: 300; 
+    }
+
+}
