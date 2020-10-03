@@ -38,10 +38,14 @@ section form div:first-of-type {
     width: 10%;
 }
 
+#search_smartphone{
+    display: none;
+}
+
 .fa-map-marker-alt{
     color: black;
-    margin-left: 50%;
-    margin-top: 50%;
+    margin-left: 28%;
+    margin-top: 48%;
     transform: translate(-50%, -50%);
 }
 
@@ -103,7 +107,7 @@ section #filters h4{
     section form {
         display: flex;
         font-weight: bold;
-        margin: 10px 20px;
+        margin: 10px 8px 10px 20px;
     }
     
     #localisation{
@@ -130,10 +134,21 @@ section #filters h4{
     }
 
     #search{
+        display: none;
+    }
+
+    #search_smartphone{
+        display: block;
+        background-color: var(--dark-blue);
+        border: none;
+        color:white;
         position: relative;
         right: 15px;
         border-radius: 15px;
-        width: 15%;
-        color: transparent;
+        width: 19%; 
+    }
+
+    .fa-search{
+        width: 20%;
     }
 }

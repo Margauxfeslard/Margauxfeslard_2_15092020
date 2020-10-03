@@ -8,6 +8,10 @@ section div ul li {
     font-weight: bold;
 }
 
+section div ul li:hover {
+    color: var(--dark-blue);
+}
+
 section div ul li:nth-child(n+1){
     border: solid 2px;
     border-color: var(--background-grey);
