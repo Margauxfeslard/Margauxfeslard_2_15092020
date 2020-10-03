@@ -119,7 +119,7 @@ header nav img {
 
     #smartphone div:nth-of-type(2) a:hover{
         color: var(--dark-blue);
-        border-bottom: 3px solid var(--dark-blue);
+        border-bottom: 2px solid var(--dark-blue);
     }
 
     #smartphone div img{
