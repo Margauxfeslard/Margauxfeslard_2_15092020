@@ -3,26 +3,26 @@ footer{
     background-color: var(--background-grey);
 }
 
-footer span ul li {
+footer article ul li {
     display: block;
     margin: 10px;
 }
 
-footer span ul li:first-of-type {
+footer article ul li:first-of-type {
     font-weight: 600;
     font-size: 18px;
     margin-top: 40px;
     margin-bottom: 20px;
 }
 
-footer span ul a {
+footer article ul a {
    text-decoration: none;
    color:black;
    font-weight: 300;
    font-size: 15px;
 }
 
-footer span{
+footer article{
     margin-right: 15%;
 }
 
@@ -55,7 +55,7 @@ footer span{
         
     }
 
-    footer span article ul li {
+    footer article ul li {
         display: block;
     }
 }
