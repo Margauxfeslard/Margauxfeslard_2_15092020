@@ -49,19 +49,18 @@ section form div:first-of-type {
     transform: translate(-50%, -50%);
 }
 
-section:first-of-type div:nth-of-type(2){
-    display: flex;
-}
-
 section:first-of-type #info{
     display: inline-block;
     position: relative;
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    border: solid thin;
-    border-color: var(--background-grey);
+    border: solid thin var(--background-grey);
     margin: 24px 12px 24px 0;
+}
+
+#info-logements{
+    display: flex;
 }
 
 section #filters h4{
@@ -154,5 +153,15 @@ section #filters h4{
 
     .fa-search{
         width: 20%;
+    }
+
+    section:first-of-type #info{
+        display: inline-block;
+        position: relative;
+        width: 26px;
+        height: 20px;
+        border-radius: 50%;
+        border: solid thin var(--background-grey);
+        margin: 19px 0 24px 12px;
     }
 }
