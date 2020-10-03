@@ -49,7 +49,11 @@ section form div:first-of-type {
     transform: translate(-50%, -50%);
 }
 
-section:first-of-type h5 div{
+section:first-of-type div:nth-of-type(2){
+    display: flex;
+}
+
+section:first-of-type #info{
     display: inline-block;
     position: relative;
     width: 20px;
@@ -57,7 +61,7 @@ section:first-of-type h5 div{
     border-radius: 50%;
     border: solid thin;
     border-color: var(--background-grey);
-    margin-right: 12px;
+    margin: 24px 12px 24px 0;
 }
 
 section #filters h4{
