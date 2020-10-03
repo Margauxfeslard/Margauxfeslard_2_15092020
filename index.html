@@ -10,14 +10,24 @@
     <body>
         <div id="main">
             <header>
-                <img src="images/logo/Reservia@3x.png" alt="Logo reservia">    
-                <nav>
-                    <ul>
-                        <li><a href="#">Hébergements</a></li>
-                        <li><a href="#">Activités</a></li>
+                <nav id="desktop">
+                    <img src="images/logo/Reservia@3x.png" alt="Logo reservia">  
+                    <ul >
+                        <li><a href="#habitation" >Hébergements</a></li>
+                        <li><a href="#all-activities">Activités</a></li>
                         <li><a href="#">S'inscrire</a></li>
                     </ul>
                 </nav>
+                <div id="smartphone">
+                    <div>
+                        <img src="images/logo/Reservia@3x.png" alt="Logo reservia">
+                        <a href="#">S'inscrire</a>
+                    </div>
+                    <div>
+                        <a href="#popularity">Hébergements</a>
+                        <a href="#activity">Activités</a>
+                    </div>
+                </div>
             </header>
             <section>
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -28,6 +38,7 @@
                     </div>
                     <input type="search" value="Marseille, France" id="localisation">
                     <input type="submit" value="Rechercher" id="search">
+                    <input type="submit" class="fas fa-search" value="&#xf002" id="search_smartphone">
                 </form>
                 <div id="filters">
                     <h4>Filtres</h4>
@@ -119,7 +130,7 @@
                         </article>
                         <a href="#">Afficher plus</a>
                 </section>
-                <aside>
+                <aside id="popularity">
                     <h2>Les plus populaires <i class="fas fa-chart-line"></i></h2>
                     <article>
                         <img src="./images/hebergements/4_small/hotel-le-soleil-du-matin.jpg" alt="">
@@ -165,7 +176,7 @@
                     </article>
                 </aside>
             </section>
-            <section>
+            <section id="activity">
                 <h2>Activités à Marseille</h2>
                     <article id="all-activities">
                         <div class="cards-activity-long">
