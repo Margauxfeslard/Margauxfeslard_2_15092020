@@ -58,16 +58,58 @@ header nav img {
 }
 
 
-@media only screen and (min-width: 600px) and (max-width: 1024px){
+@media only screen and (min-device-width: 760px) and (max-device-width: 1024px){
 
+    header nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    li {
+        list-style: none;
+        display: inline;
+    }
+    
+    nav ul li a {
+        text-decoration: none; 
+        padding: 30px 10px; 
+        font-weight: 300; 
+    }
+    
+    nav ul li:nth-of-type(3) a {
+        color: var(--dark-blue);
+        font-weight: 500;  
+    }
+    
+    nav ul li:nth-of-type(1) a, nav ul li:nth-of-type(2) a {
+        color: rgb(70, 67, 67); 
+    }
+    
+    nav ul li:nth-of-type(1) a{
+        color: var(--dark-blue); 
+        border-top: solid;
+        border-top-color:var(--dark-blue);
+    }
+    
+    
+    nav ul li:nth-of-type(1) a:hover, li:nth-of-type(2) a:hover {
+        color: var(--dark-blue); 
+        border-top: solid;
+        border-top-color:var(--dark-blue);
+    } 
+    
+    header nav img {
+        width: 10%;
+        height: 10%;
+        padding: 15px 0;
+    }
+    
+    #smartphone{
+        display:none;
+    }
 }
 
-
-@media screen and (min-width: 480px) and (max-width: 600px){
-
-}
-
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 760px) {
     header > img {
         width: 30%;
         height: 30%;
@@ -111,8 +153,7 @@ header nav img {
     }
 
     #smartphone div:nth-of-type(2) a {
-        padding: 0 0 30px 60px;
-        justify-content: center;
+        text-align: center;
         flex:1;
         border-bottom: 2px solid grey;
     }

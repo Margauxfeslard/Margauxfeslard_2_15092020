@@ -44,8 +44,9 @@ section form div:first-of-type {
 
 .fa-map-marker-alt{
     color: black;
-    margin-left: 28%;
-    margin-top: 48%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -91,22 +92,59 @@ section #filters h4{
 }
 
 
-@media only screen and (min-width: 1024px) and (max-width: 1600px){
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1600px){
 
 
 }
 
 
-@media only screen and (min-width: 600px) and (max-width: 1024px){
+@media only screen and (min-device-width: 760px) and (max-device-width: 1024px){
+    section form {
+        display: flex;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+    
+    #localisation{
+        width: 30%;
+        padding: 10px;
+    }
 
+    section:first-of-type div {
+        display: inline-block;
+    }
+
+    section:first-of-type h5 div{
+        float:left;
+    }
+
+    section form div:first-of-type {
+        width: 8%;
+        height: 50px;
+        border-radius: 15px 0 0 15px;
+    }
+
+    #search{
+        display: none;
+    }
+
+    #search_smartphone{
+        display: block;
+        background-color: var(--dark-blue);
+        border: none;
+        color:white;
+        position: relative;
+        right: 15px;
+        border-radius: 15px;
+        width: 8%; 
+    }
+
+    .fa-search{
+        width: 20%;
+    }
 }
 
-
-@media screen and (min-width: 480px) and (max-width: 600px){
-
-}
-
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 760px) {
     section form {
         display: flex;
         font-weight: bold;
@@ -132,10 +170,6 @@ section #filters h4{
         border-radius: 15px 0 0 15px;
     }
 
-    .fa-map-marker-alt{
-        margin-left: 34%;   
-    }
-
     #search{
         display: none;
     }
@@ -156,12 +190,6 @@ section #filters h4{
     }
 
     section:first-of-type #info{
-        display: inline-block;
-        position: relative;
-        width: 26px;
-        height: 20px;
-        border-radius: 50%;
-        border: solid thin var(--background-grey);
-        margin: 19px 0 24px 12px;
+        margin: 20px 5px 20px 13px;
     }
 }

@@ -9,7 +9,7 @@ section:nth-of-type(2){
     background-color: var(--background-grey);
     border-radius: 20px;
     margin-right: 40px;
-    padding: 40px 20px;
+    padding: 40px 20px 10px 20px;
 }
 
 #habitation article{
@@ -23,26 +23,26 @@ aside{
     width: 27%;
     background-color: var(--background-grey);
     border-radius: 20px;
-    padding: 40px 50px 20px 50px;
+    padding: 40px 20px;
 }
 
 .fa-chart-line{
     margin-left: 70px;
 }
 
-#habitation h3, aside h3{
+#habitation h2, aside h2    {
     font-weight: 700;
     font-size: 22px;
-    letter-spacing: 0.5px;
+    margin: 0 15px 15px 15px;
 }
 
-#habitation a{
+#plus{
     display: block;
     text-decoration: none;
     color:black;
     font-weight: 600;
     font-size: 18px;
-    margin: 15px;
+    margin: 30px 15px 0px 15px;
 }
 
 @media only screen and (min-width: 1900px){
@@ -53,22 +53,13 @@ aside{
 }
 
 
-@media only screen and (min-width: 1024px) and (max-width: 1600px){
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1600px){
 
 
 }
 
 
-@media only screen and (min-width: 600px) and (max-width: 1024px){
-
-}
-
-
-@media screen and (min-width: 480px) and (max-width: 600px){
-
-}
-
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-device-width: 760px) and (max-device-width: 1024px){
     section:nth-of-type(2){
         flex-direction: column-reverse;
         margin: 10px 0;
@@ -87,7 +78,49 @@ aside{
         padding: 0;
     }
 
-    #habitation a{
+    #plus{
+        display: block;
+        text-decoration: none;
+        color:black;
+        font-weight: 600;
+        font-size: 18px;
         margin: 20px 20px 10px 20px;
+    }
+
+    #habitation h2, aside h2    {
+        margin: 30px 15px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 760px) {
+    section:nth-of-type(2){
+        flex-direction: column-reverse;
+        margin: 10px 0;
+    }
+
+    #habitation{
+        width: 100%;
+        border-radius:0;
+        padding:0;
+        background-color: white;
+    }
+
+    aside{
+        width: 100%;
+        border-radius:0;
+        padding: 0;
+    }
+
+    #plus{
+        display: block;
+        text-decoration: none;
+        color:black;
+        font-weight: 600;
+        font-size: 18px;
+        margin: 20px 20px 10px 20px;
+    }
+
+    #habitation h2, aside h2    {
+        margin: 30px 15px;
     }
 }
