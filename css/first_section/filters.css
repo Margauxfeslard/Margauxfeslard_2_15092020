@@ -39,13 +39,6 @@ section div ul li:nth-child(n+1) .fas{
     
 }
 
-@media only screen and (min-width: 1900px){}
-
-@media only screen and (min-width: 1600px) and (max-width: 1900px){}
-
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1600px){}
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
     #filters{
         display:block;

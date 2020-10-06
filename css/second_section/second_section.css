@@ -31,8 +31,6 @@ aside{
 }
 
 #habitation h2, aside h2    {
-    font-weight: 700;
-    font-size: 22px;
     margin: 0 15px 15px 15px;
 }
 
@@ -45,20 +43,6 @@ aside{
     margin: 30px 15px 0px 15px;
 }
 
-@media only screen and (min-width: 1900px){
-
-}
-@media only screen and (min-width: 1600px) and (max-width: 1900px){
-
-}
-
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1600px){
-
-
-}
-
-
 @media only screen and (min-device-width: 760px) and (max-device-width: 1024px){
     section:nth-of-type(2){
         flex-direction: column-reverse;
@@ -66,16 +50,19 @@ aside{
     }
 
     #habitation{
-        width: 100%;
+        display: block;
+        width: auto;
         border-radius:0;
         padding:0;
         background-color: white;
+        margin: 20px;
     }
 
     aside{
-        width: 100%;
+        display: block;
+        width: auto;
         border-radius:0;
-        padding: 0;
+        padding:0 20px 40px 20px;
     }
 
     #plus{
@@ -92,7 +79,7 @@ aside{
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 760px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 760px) {
     section:nth-of-type(2){
         flex-direction: column-reverse;
         margin: 10px 0;
