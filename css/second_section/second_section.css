@@ -44,7 +44,7 @@ aside{
 }
 
 @media only screen and (min-device-width: 760px) and (max-device-width: 1024px){
-    section:nth-of-type(2){
+    #all_second{
         flex-direction: column-reverse;
         margin: 10px 0;
     }
@@ -74,7 +74,7 @@ aside{
         margin: 20px 20px 10px 20px;
     }
 
-    #habitation h2, aside h2    {
+    #habitation h2, aside h2{
         margin: 30px 15px;
     }
 }
