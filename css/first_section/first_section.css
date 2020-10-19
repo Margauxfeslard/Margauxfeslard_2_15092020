@@ -84,7 +84,7 @@ section #filters h4{
     transform: translate(-2px,-2px);
 }
 
-@media only screen and (min-device-width: 760px) and (max-device-width: 1024px){
+@media only screen and (min-width: 760px) and (max-width: 1024px){
     section:first-of-type{
         margin: 0 30px;
     }
@@ -133,7 +133,7 @@ section #filters h4{
     }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 760px) {
+@media only screen and (min-width: 320px) and (max-width: 760px) {
     section form {
         display: flex;
         font-weight: bold;
